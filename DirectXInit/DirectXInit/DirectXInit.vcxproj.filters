@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7c58474f-83f4-41cf-9a42-39ac557fdc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object">
+      <UniqueIdentifier>{993a6725-0e95-47e6-9bc2-c588491458e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene">
+      <UniqueIdentifier>{b5ffdd19-7d16-4cec-a537-3004f7134aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Base">
+      <UniqueIdentifier>{ca44860f-2ce7-4fcc-ad86-f88f276f06f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Derived">
+      <UniqueIdentifier>{f1ec1568-3247-4a1f-bfbe-1f02bf78b0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Derived\TitleScene">
+      <UniqueIdentifier>{50bb03fd-3bd2-446f-8ba3-a1e5420bb108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Derived\Stage1Scene">
+      <UniqueIdentifier>{c89098eb-9a68-47c1-963a-3aff12cb296a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Derived\ClearScene">
+      <UniqueIdentifier>{f0c75e4d-0552-4750-a06a-add8ffa5a6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Derived\EndScene">
+      <UniqueIdentifier>{4975ca25-98b1-4c12-9866-f2c5ba030bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{1adc5b25-e7e9-407e-9f94-3ce113441829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\TextureLoad">
+      <UniqueIdentifier>{ff37fdf4-a2cb-4ed2-89f2-6c9aa7527c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\ShaderProgram">
+      <UniqueIdentifier>{e7b412ed-b03a-4abc-9cc3-fe72272230a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\ShaderProgram\Picel">
+      <UniqueIdentifier>{b69c2bb5-ec76-435b-877e-87d76ba15ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\ShaderProgram\Vertex">
+      <UniqueIdentifier>{60df755e-0ac0-49e9-bdac-cbca18ce3bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Input">
+      <UniqueIdentifier>{0596f6e8-488d-4a7f-a31a-a2aaaeedf064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\DirectX">
+      <UniqueIdentifier>{8b329938-7c10-4016-9dc7-18859cbfa97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Base">
+      <UniqueIdentifier>{eb0167d1-3970-47b6-9b2e-0270b6ec8c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived">
+      <UniqueIdentifier>{5ed64395-9825-40a4-b26f-15a08e1d82c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character">
+      <UniqueIdentifier>{3947da77-eb9c-4df5-bc0e-6bfa56707efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\FileOperation">
+      <UniqueIdentifier>{46cf618e-b943-453e-8f62-a9dc5ce859fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Base">
+      <UniqueIdentifier>{577babfc-e7bb-4bec-ab44-b5031857184b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived">
+      <UniqueIdentifier>{87814c0b-3cc4-447a-ab06-c7aca5b6f6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Enemy">
+      <UniqueIdentifier>{957d6ad1-f30f-4665-b49d-3c795ce9a93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Player">
+      <UniqueIdentifier>{25fc5f9d-cbac-4f38-93b0-14827efafbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Timer">
+      <UniqueIdentifier>{aaa28141-31b0-4c13-95a3-8807bca4e385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\ParticleManager">
+      <UniqueIdentifier>{536c5ce0-2646-4ab5-9ceb-c85c1d6ada62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Gravity">
+      <UniqueIdentifier>{78fe95ea-ace7-4d9b-adc3-845141807cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Player\PlayerState">
+      <UniqueIdentifier>{f0eed4ea-2c7e-4776-9f71-7d6b151fe637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Player\PlayerState\Derived">
+      <UniqueIdentifier>{449d12cc-e76b-42cd-970f-303771b24a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Player\PlayerState\Base">
+      <UniqueIdentifier>{6f3abb4b-23ca-409a-abfb-d9b79d53d562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\Standing">
+      <UniqueIdentifier>{f1c55e18-430e-45fc-a6d0-42177ab9fdf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\JumpState">
+      <UniqueIdentifier>{17bdc6dc-c41d-48e3-88fd-41ad19f40eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\TileManager">
+      <UniqueIdentifier>{2183ba2e-3bc6-432a-8258-ee9d50c2a933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Enemy\EnemyState">
+      <UniqueIdentifier>{202c435f-d015-47d7-9cb0-926984dd30f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Enemy\EnemyState\Base">
+      <UniqueIdentifier>{222ab725-4d1d-4290-8c08-b0addb4d2500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived">
+      <UniqueIdentifier>{fa4151c6-562a-4d8b-810a-ef9bb4769837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\StopState">
+      <UniqueIdentifier>{c9c6f13a-a4cb-43cd-8c10-f34839a7b43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\MoveState">
+      <UniqueIdentifier>{a824697b-53af-49a8-81bd-2d65ed184827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\Dead">
+      <UniqueIdentifier>{b28af1c4-b553-491b-95eb-d8716b2b0f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\EnemyDeadState">
+      <UniqueIdentifier>{50c9cf2c-9034-4c42-b0d1-a2b70ce003d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\SupearJump">
+      <UniqueIdentifier>{ac397f55-039d-4231-a9ac-bd944a11ddc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Derived\ChangScene">
+      <UniqueIdentifier>{fb6f570b-7eab-4ef1-a82e-68eced55135c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Derived\Stage2Scene">
+      <UniqueIdentifier>{f8d4db42-9ebd-469c-b7c5-c2bfd9d520a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scene\Derived\Stage3Scene">
+      <UniqueIdentifier>{f8c31bda-bcde-4277-8a9c-c8f66fb1c9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Derived\Character\Goll">
+      <UniqueIdentifier>{92acbcd4-a27e-46c3-9cf7-f34ecab71a20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Object.cpp">
+      <Filter>Main\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Main\Scene\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Main\Scene\Derived\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1Scene.cpp">
+      <Filter>Main\Scene\Derived\Stage1Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>Main\Scene\Derived\ClearScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Main\Scene\Derived\EndScene</Filter>
+    </ClCompile>
+    <ClCompile Include="direcgt3d.cpp">
+      <Filter>Parts\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Parts\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>Parts\TextureLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MapFileOperations.cpp">
+      <Filter>Parts\FileOperation</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Main\Object\Derived\Character\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Parts\ParticleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Parts\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>Parts\Gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStandingState.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\Standing</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJumpState.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\JumpState</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Parts\TileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyStopState.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\StopState</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMoveState.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\MoveState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDeadState.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDeadState.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\EnemyDeadState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSupearJumpState.cpp">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\SupearJump</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangScene.cpp">
+      <Filter>Main\Scene\Derived\ChangScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2Scene.cpp">
+      <Filter>Main\Scene\Derived\Stage2Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3Scene.cpp">
+      <Filter>Main\Scene\Derived\Stage3Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Goll.cpp">
+      <Filter>Main\Object\Derived\Character\Goll</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Parts\ShaderProgram\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="TextureShader.hlsl">
+      <Filter>Parts\ShaderProgram\Picel</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Parts\ShaderProgram\Picel</Filter>
+    </FxCompile>
+    <FxCompile Include="heder.hlsl">
+      <Filter>Parts\ShaderProgram</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Main\Scene\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Main\Scene\Derived\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1Scene.h">
+      <Filter>Main\Scene\Derived\Stage1Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearScene.h">
+      <Filter>Main\Scene\Derived\ClearScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Main\Scene\Derived\EndScene</Filter>
+    </ClInclude>
+    <ClInclude Include="direcgt3d.h">
+      <Filter>Parts\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Parts\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>Parts\TextureLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Main\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Main\Object\Derived\Character\Derived\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MapFileOperations.h">
+      <Filter>Parts\FileOperation</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Parts\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Parts\ParticleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>Parts\Gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStandingState.h">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\Standing</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJumpState.h">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\JumpState</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Parts\TileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Main\Object\Derived\Character\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy\EnemyState\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyStopState.h">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\StopState</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMoveState.h">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\MoveState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDeadState.h">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDeadState.h">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy\EnemyState\Drived\EnemyDeadState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSupearJumpState.h">
+      <Filter>Main\Object\Derived\Character\Derived\Player\PlayerState\Derived\SupearJump</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Main\Object\Derived\Character\Derived\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangScene.h">
+      <Filter>Main\Scene\Derived\ChangScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2Scene.h">
+      <Filter>Main\Scene\Derived\Stage2Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3Scene.h">
+      <Filter>Main\Scene\Derived\Stage3Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Goll.h">
+      <Filter>Main\Object\Derived\Character\Goll</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
